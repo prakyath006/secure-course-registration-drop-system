@@ -1,0 +1,33 @@
+{
+  "name": "secure-course-registration-backend",
+  "version": "1.0.0",
+  "description": "Secure Course Registration and Drop System Backend",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node src/app.js",
+    "seed": "node src/seed.js"
+  },
+  "keywords": [
+    "course-registration",
+    "security",
+    "mfa",
+    "encryption"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^9.1.5",
+    "nodemailer": "^6.9.8",
+    "uuid": "^9.0.1"
+  }
+}
